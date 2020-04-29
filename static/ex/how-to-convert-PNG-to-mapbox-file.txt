@@ -1,0 +1,38 @@
+Directions:
+
+1. Import PNG to ArcGIS Pro (Drag & Drop)
+2. Georeference the image and centering it at 0,0
+	a. Use Go to XY to find 0,0 and move the Extent
+	b. Use Georeference to Fit to Display
+	c. Change scale to 1:75,000,000 (so that the extens fits -100/45/100/-45)
+	e. Coordinate System WGS_1984
+	f. Change Clipping Geometry to As Specified Below
+	g. Extents L/T/R/B to -100/45/100/-45
+		(or as close to this without going inside these extents)
+	h. Save New Georeference
+	i. Output Format is TIFF
+
+
+
+https://desktop.arcgis.com/en/arcmap/latest/extensions/production-mapping/exporting-to-layout-geotiff.htm
+
+
+
+Layer to KML conversion in ArcMap
+Use online converter to SHP
+	https://mygeodata.cloud/converter/kmz-to-shp
+Extract TIF from 'mygeodata' download & Upload to Mapbox
+
+
+
+
+
+_____________________________
+Size in GIMP (png)
+Drag & Drop into ArcMap
+Export Map (check GeoTIFF box)
+Import into Mapbox
+
+
+
+
