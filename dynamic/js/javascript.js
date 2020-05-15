@@ -2,8 +2,8 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrMnpqYnVxaTA1b3IzbXBnaG5zY3o3eTEifQ.kMdIcXYBFKHTorj3Hxgi7g';
 // Set bounds to New York, New York
 var bounds = [
-  [-130, -75], // [west, south]
-  [130, 75]  // [east, north]
+  [-110, -85], // [west, south]
+  [110, 85]  // [east, north]
 ];
 
 var map = new mapboxgl.Map({
