@@ -31,3 +31,13 @@
 .danger-line{
     stroke: gray;
 }
+
+.wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: -60px;
+  left: -200px;
+}
