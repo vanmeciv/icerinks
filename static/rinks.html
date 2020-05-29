@@ -11,7 +11,16 @@
 
 <h2>Rink Plots</h2>
 <h3>Full Rink, Horizontal</h3>
-<div class="chart" id="full-rink-horz"></div>
+
+<div class="wrapper">
+  <div class="plotly">
+    <div class="chart" id="full-rink-horz"></div>  <!-- This would instead be your chart -->
+  </div>
+  <img class="overlay" src="https://hockeyrink.geospatial.is/assets/img/mytable.png" />
+  </div>
+</div>
+
+<!-- <div class="chart" id="full-rink-horz"></div> -->
 <h3>Full Rink, Vertical</h3>
 <div class="chart" id="full-rink-vert"></div>
 <h3>Half Rink, Horizontal</h3>
@@ -55,7 +64,7 @@ $(document).ready(function(){
 
     var halfVertPlot = new RINK_MAP({parent: halfVertSvg, fullRink: false, desiredWidth: 400, horizontal: false});
 
-    halfVertPlot();    
+    halfVertPlot();
 });
 </script>
 
