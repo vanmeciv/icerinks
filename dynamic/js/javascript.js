@@ -1,4 +1,4 @@
-// 2019 Stanley Cup Events Automated from Python Code 
+// 2019 Stanley Cup Events Automated from Python Code
 mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrMnpqYnVxaTA1b3IzbXBnaG5zY3o3eTEifQ.kMdIcXYBFKHTorj3Hxgi7g';
 // Set bounds to New York, New York
 var bounds = [
@@ -14,7 +14,7 @@ attributionControl: false,
 style: 'mapbox://styles/isaacv/ck9n5j6ch0h6p1immcg0dc3hr',
 maxBounds: bounds,
 });
-
+// https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/
 map.on('load', function() {
             map.addSource("myImageSource", {
                 "type": "image",
