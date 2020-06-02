@@ -20,10 +20,10 @@ map.on('load', function() {
                 "type": "image",
                 "url": "https://hockeyrink.geospatial.is/static/assets/img/mytable.png",
                 "coordinates": [
-                  [-150, 55],
+                  [-155, 55],
                   [200,55],
                   [200,-55],
-                  [-150,-55]
+                  [-155,-55]
                 ]
             });
 
