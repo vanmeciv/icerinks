@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrMnpqYnVxaTA1b3IzbXBnaG5zY
 // Set bounds to New York, New York
 var bounds = [
   [-110, -85], // [west, south]
-  [110, 85]  // [east, north]
+  [150, 80]  // [east, north]
 ];
 
 var map = new mapboxgl.Map({
@@ -16,26 +16,26 @@ maxBounds: bounds,
 });
 // https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/
 map.on('load', function() {
-            map.addSource("myImageSource", {
-                "type": "image",
-                "url": "https://hockeyrink.geospatial.is/static/ex/mytable.png",
-                "coordinates": [
-                  [-155, 55],
-                  [200,55],
-                  [200,-55],
-                  [-155,-55]
-                ]
-            });
+    map.addSource("myImageSource", {
+        "type": "image",
+        "url": "https://hockeyrink.geospatial.is/static/ex/mytable.png",
+        "coordinates": [
+          [-155, 55],
+          [200,55],
+          [200,-55],
+          [-155,-55]
+        ]
+    });
 
-            map.addLayer({
-                "id": "overlay",
-                "source": "myImageSource",
-                "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
-            });
-        });
+    map.addLayer({
+        "id": "overlay",
+        "source": "myImageSource",
+        "type": "raster",
+        "paint": {
+        "raster-opacity": 0.85
+        }
+    });
+});
 
 
 
