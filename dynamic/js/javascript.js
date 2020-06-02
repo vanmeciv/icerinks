@@ -11,7 +11,7 @@ container: 'map',
 center: [0,0],
 zoom: 1,
 attributionControl: false,
-style: 'mapbox://styles/isaacv/ck9n5j6ch0h6p1immcg0dc3hr',
+style: 'mapbox://styles/isaacv/ck7b0xxc80bj61ipmar9jkwny',
 maxBounds: bounds,
 });
 // https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/
