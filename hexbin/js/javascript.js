@@ -1,5 +1,5 @@
 // Blank Rink
-mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrMnpqYnVxaTA1b3IzbXBnaG5zY3o3eTEifQ.kMdIcXYBFKHTorj3Hxgi7g';
+mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYWZyam8wcjAxdjczMHBteGhoZjlqZXoifQ.i5FSDzH9ybnPDpFNhKrVOQ';
 // Set bounds to New York, New York
 var bounds = [
   [-110, -85], // [west, south]
