@@ -1,5 +1,5 @@
 // 2019 Stanley Cup Events Automated from Python Code
-mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrMnpqYnVxaTA1b3IzbXBnaG5zY3o3eTEifQ.kMdIcXYBFKHTorj3Hxgi7g';
+mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYWZyam8wcjAxdjczMHBteGhoZjlqZXoifQ.i5FSDzH9ybnPDpFNhKrVOQ';
 // Set bounds to New York, New York
 var bounds = [
   [-110, -85], // [west, south]
@@ -53,7 +53,7 @@ maxBounds: bounds,
 // map.addControl(new mapboxgl.AttributionControl(), 'top-right');
 
 
-// 
+//
 // // Single Games Events (Redwings vs. Lightning)
 // mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrMnpqYnVxaTA1b3IzbXBnaG5zY3o3eTEifQ.kMdIcXYBFKHTorj3Hxgi7g';
 // // Set bounds to New York, New York
