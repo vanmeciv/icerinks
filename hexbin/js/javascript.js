@@ -18,7 +18,7 @@ maxBounds: bounds,
 map.on('load', function() {
     map.addSource("myImageSource", {
         "type": "image",
-        "url": "https://hockeyrink.geospatial.is/static/ex/mytable.png",
+        "url": "https://hockeyrink.geospatial.is/img/mytable.png",
         "coordinates": [
           [-155, 55],
           [200,55],
