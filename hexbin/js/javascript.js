@@ -1,9 +1,10 @@
 // Blank Rink
 mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYWZyam8wcjAxdjczMHBteGhoZjlqZXoifQ.i5FSDzH9ybnPDpFNhKrVOQ';
-// Set bounds to New York, New York
+// Set bounds for maptile
+// DO NOT TOUCH!!!
 var bounds = [
-  [-120, -85], // [west, south]
-  [120, 85]  // [east, north]
+  [-115, -80], // [west, south]
+  [115, 80]  // [east, north]
 ];
 
 var map = new mapboxgl.Map({
@@ -19,11 +20,12 @@ map.on('load', function() {
     map.addSource("myImageSource", {
         "type": "image",
         "url": "https://hockeyrink.geospatial.is/hexbin/img/mytable.png",
+        // Sets image size
         "coordinates": [
-          [-147, 57], //NW corner
-          [137,57], //NE Corner
-          [137,-77], //SW Corner
-          [-147,-77] //SW Corner
+          [-150, 60], //NW corner
+          [135,60], //NE Corner
+          [135,-75], //SW Corner
+          [-150,-75] //SW Corner
         ]
     });
 
