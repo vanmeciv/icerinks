@@ -3,14 +3,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYWZyam8wcjAxdjczMHBteGhoZ
 // Set bounds for maptile
 // DO NOT TOUCH!!!
 var bounds = [
-  [-115, -80], // [west, south]
-  [115, 80]  // [east, north]
+  [-195, -90], // [west, south]
+  [205, 90]  // [east, north]
 ];
 
 var map = new mapboxgl.Map({
 container: 'map',
 center: [0,0],
-zoom: 1,
+zoom: .001,
 attributionControl: false,
 style: 'mapbox://styles/isaacv/ck9n5j6ch0h6p1immcg0dc3hr',
 maxBounds: bounds,
