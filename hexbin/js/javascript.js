@@ -22,10 +22,10 @@ map.on('load', function() {
         "url": "https://hockeyrink.geospatial.is/hexbin/img/mytable.png",
         // Sets image size
         "coordinates": [
-          [-150, 60], //NW corner
+          [-145, 60], //NW corner
           [135,60], //NE Corner
           [135,-75], //SW Corner
-          [-150,-75] //SW Corner
+          [-145,-75] //SW Corner
         ]
     });
 
