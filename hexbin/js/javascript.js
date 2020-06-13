@@ -2,8 +2,8 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYWZyam8wcjAxdjczMHBteGhoZjlqZXoifQ.i5FSDzH9ybnPDpFNhKrVOQ';
 // Set bounds to New York, New York
 var bounds = [
-  [-110, -85], // [west, south]
-  [150, 80]  // [east, north]
+  [-90, -85], // [west, south]
+  [120, 85]  // [east, north]
 ];
 
 var map = new mapboxgl.Map({
@@ -21,8 +21,8 @@ map.on('load', function() {
         "url": "https://hockeyrink.geospatial.is/hexbin/img/mytable.png",
         "coordinates": [
           [-120, 70],
-          [160,70],
-          [160,-70],
+          [140,70],
+          [140,-70],
           [-120,-70]
         ]
     });
