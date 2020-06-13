@@ -20,10 +20,10 @@ map.on('load', function() {
         "type": "image",
         "url": "https://hockeyrink.geospatial.is/hexbin/img/mytable.png",
         "coordinates": [
-          [-145, 60],
-          [140,60],
-          [140,-75],
-          [-145,-75]
+          [-147, 57], //NW corner
+          [137,57], //NE Corner
+          [137,-77], //SW Corner
+          [-147,-77] //SW Corner
         ]
     });
 
