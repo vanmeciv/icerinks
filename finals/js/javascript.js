@@ -1,68 +1,71 @@
 // https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
 mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYjV1Z3lxODB4NHMzMG84ZzFocXc1bmYifQ.Wizy1tWvNjdboiGToeAZHQ';
 var places = {
-'type': 'FeatureCollection',
-'features': [
-{
-'type': 'Feature',
-'properties': {
-'icon': 'theatre'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.038659, 38.931567]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'theatre'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.003168, 38.894651]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'bar'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.090372, 38.881189]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'bicycle'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.052477, 38.943951]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'music'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.031706, 38.914581]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'music'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.020945, 38.878241]
-}
-},
+  "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            0
+          ]
+        },
+        "properties": {
+          "FIELD1": 3,
+          "Event": "Faceoff",
+          "Description": "Oskar Sundqvist faceoff won against Sean Kuraly",
+          "Team": "St. Louis Blues",
+          "Tricode": "STL",
+          "Period": 1,
+          "Time": "0:10",
+          "Date": "2019-05-28T00:25:57Z",
+          "Home_Away_Team": "Away"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -20,
+            22
+          ]
+        },
+        "properties": {
+          "FIELD1": 5,
+          "Event": "Faceoff",
+          "Description": "Sean Kuraly faceoff won against Oskar Sundqvist",
+          "Team": "Boston Bruins",
+          "Tricode": "BOS",
+          "Period": 1,
+          "Time": "0:28",
+          "Date": "2019-05-28T00:26:51Z",
+          "Home_Away_Team": "Home"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47,
+            -19
+          ]
+        },
+        "properties": {
+          "FIELD1": 6,
+          "Event": "Shot",
+          "Description": "Charlie McAvoy Wrist Shot saved by Jordan Binnington",
+          "Team": "Boston Bruins",
+          "Tricode": "BOS",
+          "Period": 1,
+          "Time": "0:28",
+          "Date": "2019-05-28T00:26:51Z",
+          "Home_Away_Team": "Home"
+        }
+      },
 {
 'type': 'Feature',
 'properties': {
