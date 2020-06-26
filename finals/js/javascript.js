@@ -1,8 +1,9 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYjV1Z3lxODB4NHMzMG84ZzFocXc1bmYifQ.Wizy1tWvNjdboiGToeAZHQ';
 var map = new mapboxgl.Map({
 container: 'map',
-center: [-122.4443, 47.2529],
+center: [0, 0],
 zoom: 1,
+// interactive: false,
 attributionControl: false,
 style: 'mapbox://styles/isaacv/ck7aposk400za1ip6rwingtiz'
 });
@@ -16,7 +17,7 @@ map.on('load', function () {
           "data": "geoJSON/2019SCF_events.json"
       });
     // add custom icon to the map (https://docs.mapbox.com/mapbox-gl-js/example/add-image/)
-    map.loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Antu_earthquake.svg/512px-Antu_earthquake.svg.png', function(error, image) {
+    map.loadImage('img/hockey-puck-solid.png', function(error, image) {
         if (error) throw error;
         map.addImage('quake', image);
         map.addLayer({
