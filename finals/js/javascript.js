@@ -1,192 +1,59 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYjV1Z3lxODB4NHMzMG84ZzFocXc1bmYifQ.Wizy1tWvNjdboiGToeAZHQ';
-var places = {
-'type': 'FeatureCollection',
-'features': [
-{
-'type': 'Feature',
-'properties': {
-'icon': 'theatre'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.038659, 38.931567]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'theatre'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.003168, 38.894651]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'bar'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.090372, 38.881189]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'bicycle'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.052477, 38.943951]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'music'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.031706, 38.914581]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'music'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.020945, 38.878241]
-}
-},
-{
-'type': 'Feature',
-'properties': {
-'icon': 'music'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.007481, 38.876516]
-}
-}
-]
-};
-
-var filterGroup = document.getElementById('filter-group');
 var map = new mapboxgl.Map({
 container: 'map',
-style: 'mapbox://styles/mapbox/light-v10',
-center: [-77.04, 38.907],
-zoom: 11.15
+center: [-122.4443, 47.2529],
+zoom: 1,
+attributionControl: false,
+style: 'mapbox://styles/isaacv/ck7aposk400za1ip6rwingtiz'
 });
+map.addControl(new mapboxgl.AttributionControl(), 'top-right');
 
-map.on('load', function() {
-// Add a GeoJSON source containing place coordinates and information.
-map.addSource('places', {
-'type': 'geojson',
-'data': places
-});
-
-places.features.forEach(function(feature) {
-var symbol = feature.properties['icon'];
-var layerID = 'poi-' + symbol;
-
-// Add a layer for this symbol type if it hasn't been added already.
-if (!map.getLayer(layerID)) {
-map.addLayer({
-'id': layerID,
-'type': 'symbol',
-'source': 'places',
-'layout': {
-'icon-image': symbol + '-15',
-'icon-allow-overlap': true
-},
-'filter': ['==', 'icon', symbol]
-});
-
-// Add checkbox and label elements for the layer.
-var input = document.createElement('input');
-input.type = 'checkbox';
-input.id = layerID;
-input.checked = true;
-filterGroup.appendChild(input);
-
-var label = document.createElement('label');
-label.setAttribute('for', layerID);
-label.textContent = symbol;
-filterGroup.appendChild(label);
-
-// When the checkbox changes, update the visibility of the layer.
-input.addEventListener('change', function(e) {
-map.setLayoutProperty(
-layerID,
-'visibility',
-e.target.checked ? 'visible' : 'none'
-);
-});
-}
-});
-});
+map.on('load', function () {
 
 
-// mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYjV1Z3lxODB4NHMzMG84ZzFocXc1bmYifQ.Wizy1tWvNjdboiGToeAZHQ';
-// var map = new mapboxgl.Map({
-// container: 'map',
-// center: [-122.4443, 47.2529],
-// zoom: 1,
-// attributionControl: false,
-// style: 'mapbox://styles/isaacv/ck9n5j6ch0h6p1immcg0dc3hr'
-// });
-// map.addControl(new mapboxgl.AttributionControl(), 'top-right');
+  map.addSource('earthquakes', {
+          "type": "geojson",
+          "data": "geoJSON/2019SCF_events.json"
+      });
+    // add custom icon to the map (https://docs.mapbox.com/mapbox-gl-js/example/add-image/)
+    map.loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Antu_earthquake.svg/512px-Antu_earthquake.svg.png', function(error, image) {
+        if (error) throw error;
+        map.addImage('quake', image);
+        map.addLayer({
+            "id": "Earthquakes",
+            "type": "symbol",
+            "source": "earthquakes",
+            "layout": {
+                "icon-image": "quake",
+                "icon-size": 0.075,
+                "visibility":"visible"
+            }
+        });
+    });
+  });
+
+  // map.addSource('contours', {
+  //   type: 'vector',
+  //   url: 'mapbox://mapbox.mapbox-terrain-v2'
+  //   });
+  // map.addLayer({
+  //   'id': 'Contours',
+  //   'type': 'line',
+  //   'source': 'contours',
+  //   'source-layer': 'contour',
+  //       'layout': {
+  //       'visibility': 'visible',
+  //       'line-join': 'round',
+  //       'line-cap': 'round'
+  //       },
+  //   'paint': {
+  //       'line-color': '#877b59',
+  //       'line-width': 1
+  //       }
+  //   });
+  // });
 //
-// map.on('load', function () {
-//
-//
-//   map.addSource('earthquakes', {
-//           "type": "geojson",
-//           "data": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson"
-//       });
-//     // add custom icon to the map (https://docs.mapbox.com/mapbox-gl-js/example/add-image/)
-//     map.loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Antu_earthquake.svg/512px-Antu_earthquake.svg.png', function(error, image) {
-//         if (error) throw error;
-//         map.addImage('quake', image);
-//         map.addLayer({
-//             "id": "Earthquakes",
-//             "type": "symbol",
-//             "source": "earthquakes",
-//             "layout": {
-//                 "icon-image": "quake",
-//                 "icon-size": 0.075,
-//                 "visibility":"visible"
-//             }
-//         });
-//     });
-//
-//   map.addSource('contours', {
-//     type: 'vector',
-//     url: 'mapbox://mapbox.mapbox-terrain-v2'
-//     });
-//   map.addLayer({
-//     'id': 'Contours',
-//     'type': 'line',
-//     'source': 'contours',
-//     'source-layer': 'contour',
-//         'layout': {
-//         'visibility': 'visible',
-//         'line-join': 'round',
-//         'line-cap': 'round'
-//         },
-//     'paint': {
-//         'line-color': '#877b59',
-//         'line-width': 1
-//         }
-//     });
-//   });
-//
-// var toggleableLayerIds = [ 'Contours', 'Earthquakes' ];
+// var toggleableLayerIds = [ 'Earthquakes' ];
 //
 // for (var i = 0; i < toggleableLayerIds.length; i++) {
 // var id = toggleableLayerIds[i];
@@ -248,94 +115,70 @@ e.target.checked ? 'visible' : 'none'
 // map.getCanvas().style.cursor = '';
 // });
 //
-
-
-// // 2019 Stanley Cup Events Automated from Python Code
-// mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYjV1Z3lxODB4NHMzMG84ZzFocXc1bmYifQ.Wizy1tWvNjdboiGToeAZHQ';
-// // Set bounds to New York, New York
-// var bounds = [
-//   [-110, -85], // [west, south]
-//   [110, 85]  // [east, north]
-// ];
 //
-// var map = new mapboxgl.Map({
-// container: 'map',
-// center: [0,0],
+// // mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrMnpqYnVxaTA1b3IzbXBnaG5zY3o3eTEifQ.kMdIcXYBFKHTorj3Hxgi7g';
+// // var map1 = new mapboxgl.Map({
+// // container: 'labFourEarthquake',
+// center: [-122.4443, 47.2529],
 // zoom: 1,
 // attributionControl: false,
-// style: 'mapbox://styles/isaacv/ck7b0xxc80bj61ipmar9jkwny',
-// maxBounds: bounds,
+// style: 'mapbox://styles/isaacv/ck2wpjhhk0nr31dmrnv8v1p9a'
 // });
-// https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/
-// map.on('load', function() {
-//             map.addSource("myImageSource", {
-//                 "type": "image",
-//                 "url": "https://hockeyrink.geospatial.is/static/assets/img/mytable.png",
-//                 "coordinates": [
-//                   [-150, 55],
-//                   [200,55],
-//                   [200,-55],
-//                   [-150,-55]
-//                 ]
-//             });
+// map1.addControl(new mapboxgl.AttributionControl(), 'top-right');
 //
-//             map.addLayer({
-//                 "id": "overlay",
-//                 "source": "myImageSource",
-//                 "type": "raster",
-//                 "paint": {
-//                 "raster-opacity": 0.85
-//                 }
-//             });
+//
+// //on map load, run function to load the geojson
+// map1.on('load', function() {
+//   //add a source layer for earthquakes
+//   map1.addSource('earthquakes', {
+//           "type": "geojson",
+//           "data": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson"
+//       });
+//     // add custom icon to the map (https://gis.stackexchange.com/questions/179255/mapbox-gl-addlayer-where-are-the-icon-images-coming-from)
+//     map1.loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Antu_earthquake.svg/512px-Antu_earthquake.svg.png', function(error, image) {
+//         if (error) throw error;
+//         map1.addImage('cat', image);
+//         map1.addLayer({
+//             "id": "equakes",
+//             "type": "symbol",
+//             "source": "earthquakes",
+//             "layout": {
+//                 "icon-image": "cat",
+//                 "icon-size": 0.075,
+//             }
 //         });
-
-
-
-// Set the map's max bounds.
-// map.setMaxBounds(bounds);
-
-// var map = L.mapbox.map('map', 'mapbox://styles/isaacv/ck7b0xxc80bj61ipmar9jkwny', {
-//         minZoom: 5,
-//         maxZoom: 12,
-//         // maxBounds: [[-105, -50],[105,50]]
-//     }).setView([0, 0], 9);
-
-
-
-// map.addControl(new mapboxgl.AttributionControl(), 'top-right');
-
-
-//
-// // Single Games Events (Redwings vs. Lightning)
-// mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrMnpqYnVxaTA1b3IzbXBnaG5zY3o3eTEifQ.kMdIcXYBFKHTorj3Hxgi7g';
-// // Set bounds to New York, New York
-// var bounds = [
-//   [-110, -85], // [west, south]
-//   [110, 85]  // [east, north]
-// ];
-//
-// var map = new mapboxgl.Map({
-// container: 'map',
-// center: [0,0],
-// zoom: 1,
-// attributionControl: false,
-// style: 'mapbox://styles/isaacv/ck7b0xxc80bj61ipmar9jkwny',
-// maxBounds: bounds,
+//     });
 // });
 //
-
-
-
-
-// Set the map's max bounds.
-// map.setMaxBounds(bounds);
-
-// var map = L.mapbox.map('map', 'mapbox://styles/isaacv/ck7b0xxc80bj61ipmar9jkwny', {
-//         minZoom: 5,
-//         maxZoom: 12,
-//         // maxBounds: [[-105, -50],[105,50]]
-//     }).setView([0, 0], 9);
-
-
-
-// map.addControl(new mapboxgl.AttributionControl(), 'top-right');
+//
+// //add a handler for clicking/popups
+// //Thanks to: https://www.mapbox.com/mapbox-gl-js/example/popup-on-click/
+// map1.on('click', 'equakes', function (e) {
+//       //1. set the coordinates of the popup
+//       var coordinates = e.features[0].geometry.coordinates;
+//       //2. create the information that will display in the popup
+//       // var description = e.features[0].properties.title;
+//       var depth = e.features[0].geometry.depth;
+//       var description = "<h4>"+e.features[0].properties.title+"</h4>" + "<p>Depth: " + e.features[0].geometry.depth + "<br>Status: " + e.features[0].properties.status + "<br> Tsunami: " + e.features[0].properties.tsunami + "<br> More Details: " + "<a target='_blank' href=" + e.features[0].properties.url + ">Click Here</a>";
+//       //3. make the popup
+//       new mapboxgl.Popup()
+//               .setLngLat(coordinates)
+//               .setHTML(description)
+//               .addTo(map1);
+// });
+//
+//
+// // Center the map on the coordinates of any clicked symbol from the 'symbols' layer.
+// map1.on('click', 'equakes', function (e) {
+// map1.flyTo({center: e.features[0].geometry.coordinates});
+// });
+//
+// // Change the cursor to a pointer when the it enters a feature in the 'symbols' layer.
+// map1.on('mouseenter', 'equakes', function () {
+// map1.getCanvas().style.cursor = 'pointer';
+// });
+//
+// // Change it back to a pointer when it leaves.
+// map1.on('mouseleave', 'equakes', function () {
+// map1.getCanvas().style.cursor = '';
+// });
