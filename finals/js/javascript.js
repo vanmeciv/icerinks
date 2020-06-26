@@ -65,17 +65,7 @@ var places = {
           "Date": "2019-05-28T00:26:51Z",
           "Home_Away_Team": "Home"
         }
-      },
-{
-'type': 'Feature',
-'properties': {
-'icon': 'music'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.007481, 38.876516]
-}
-}
+      }
 ]
 };
 
