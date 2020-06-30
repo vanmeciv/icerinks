@@ -1,0 +1,267 @@
+,Event,Description,Team,Tricode,Period,Time,Date,Lat,Lon,Home_Away_Team
+3,Faceoff,Oskar Sundqvist faceoff won against Sean Kuraly,St. Louis Blues,STL,1,00:10,2019-05-28,0.0,0.0,Away
+5,Faceoff,Sean Kuraly faceoff won against Oskar Sundqvist,Boston Bruins,BOS,1,00:28,2019-05-28,22.0,-20.0,Home
+6,Shot,Charlie McAvoy Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,1,00:28,2019-05-28,-19.0,47.0,Home
+8,Faceoff,Patrice Bergeron faceoff won against Brayden Schenn,Boston Bruins,BOS,1,00:35,2019-05-28,-22.0,69.0,Home
+9,Shot,David Pastrnak Slap Shot saved by Jordan Binnington,Boston Bruins,BOS,1,00:35,2019-05-28,-5.0,47.0,Home
+11,Faceoff,Ryan O'Reilly faceoff won against Brad Marchand,St. Louis Blues,STL,1,01:18,2019-05-28,-22.0,69.0,Away
+12,Hit,Patrice Bergeron hit Brayden Schenn,Boston Bruins,BOS,1,01:30,2019-05-28,-35.0,16.0,Home
+13,Missed Shot,Joel Edmundson - Wide of Net,St. Louis Blues,STL,1,01:35,2019-05-28,-26.0,-41.0,Away
+14,Hit,David Perron hit Brandon Carlo,St. Louis Blues,STL,1,01:41,2019-05-28,-35.0,-89.0,Away
+15,Hit,Sammy Blais hit Torey Krug,St. Louis Blues,STL,1,02:17,2019-05-28,37.0,-78.0,Away
+16,Hit,David Perron hit Brandon Carlo,St. Louis Blues,STL,1,02:18,2019-05-28,-37.0,5.0,Away
+17,Missed Shot,Jake DeBrusk - Wide of Net,Boston Bruins,BOS,1,02:45,2019-05-28,1.0,75.0,Home
+18,Blocked Shot,Jake DeBrusk,Boston Bruins,BOS,1,03:33,2019-05-28,32.0,-36.0,Home
+19,Shot,Colton Parayko Slap Shot saved by Tuukka Rask,St. Louis Blues,STL,1,03:37,2019-05-28,27.0,-38.0,Away
+20,Missed Shot,Alex Pietrangelo - Wide of Net,St. Louis Blues,STL,1,03:37,2019-05-28,37.0,-32.0,Away
+21,Penalty,Sean Kuraly Tripping against Brayden Schenn,Boston Bruins,BOS,1,03:50,2019-05-28,30.0,-49.0,Home
+22,Faceoff,Ryan O'Reilly faceoff won against Patrice Bergeron,St. Louis Blues,STL,1,04:36,2019-05-28,-22.0,-69.0,Away
+23,Shot,Tyler Bozak Wrist Shot saved by Tuukka Rask,St. Louis Blues,STL,1,05:00,2019-05-28,18.0,-71.0,Away
+24,Shot,Noel Acciari Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,1,05:04,2019-05-28,-18.0,58.0,Home
+25,Giveaway,Giveaway by David Perron,St. Louis Blues,STL,1,05:08,2019-05-28,29.0,-58.0,Away
+26,Takeaway,Takeaway by Alex Pietrangelo,St. Louis Blues,STL,1,05:36,2019-05-28,22.0,-46.0,Away
+27,Hit,David Perron hit Patrice Bergeron,St. Louis Blues,STL,1,05:48,2019-05-28,37.0,-67.0,Away
+28,Hit,Zdeno Chara hit Oskar Sundqvist,Boston Bruins,BOS,1,06:11,2019-05-28,36.0,-91.0,Home
+29,Hit,Brandon Carlo hit Oskar Sundqvist,Boston Bruins,BOS,1,06:35,2019-05-28,36.0,-82.0,Home
+30,Blocked Shot,Torey Krug,Boston Bruins,BOS,1,06:53,2019-05-28,-7.0,-65.0,Home
+31,Shot,David Pastrnak Slap Shot saved by Jordan Binnington,Boston Bruins,BOS,1,06:53,2019-05-28,23.0,45.0,Home
+33,Faceoff,Patrice Bergeron faceoff won against Brayden Schenn,Boston Bruins,BOS,1,07:16,2019-05-28,22.0,69.0,Home
+34,Hit,Charlie McAvoy hit Jaden Schwartz,Boston Bruins,BOS,1,07:18,2019-05-28,-30.0,-70.0,Home
+35,Giveaway,Giveaway by Patrice Bergeron,Boston Bruins,BOS,1,07:23,2019-05-28,36.0,-79.0,Home
+36,Shot,Brayden Schenn Snap Shot saved by Tuukka Rask,St. Louis Blues,STL,1,07:23,2019-05-28,24.0,-42.0,Away
+37,Goal,"Brayden Schenn (3) Wrist Shot, assists: Jaden Schwartz (5), Jay Bouwmeester (6)",St. Louis Blues,STL,1,07:37,2019-05-28,-5.0,-61.0,Away
+38,Faceoff,David Krejci faceoff won against Tyler Bozak,Boston Bruins,BOS,1,08:16,2019-05-28,0.0,0.0,Home
+39,Shot,Brandon Carlo Snap Shot saved by Jordan Binnington,Boston Bruins,BOS,1,08:17,2019-05-28,-26.0,42.0,Home
+40,Hit,David Backes hit Carl Gunnarsson,Boston Bruins,BOS,1,08:17,2019-05-28,-20.0,93.0,Home
+42,Faceoff,Ryan O'Reilly faceoff won against Charlie Coyle,St. Louis Blues,STL,1,08:55,2019-05-28,22.0,-20.0,Away
+43,Hit,Sammy Blais hit Brandon Carlo,St. Louis Blues,STL,1,09:04,2019-05-28,-25.0,-95.0,Away
+44,Hit,Brandon Carlo hit Robert Bortuzzo,Boston Bruins,BOS,1,09:09,2019-05-28,-35.0,-32.0,Home
+45,Hit,Brayden Schenn hit Charlie Coyle,St. Louis Blues,STL,1,09:14,2019-05-28,-35.0,17.0,Away
+46,Takeaway,Takeaway by Brad Marchand,Boston Bruins,BOS,1,09:21,2019-05-28,36.0,11.0,Home
+47,Takeaway,Takeaway by Vladimir Tarasenko,St. Louis Blues,STL,1,09:36,2019-05-28,31.0,50.0,Away
+48,Giveaway,Giveaway by Zdeno Chara,Boston Bruins,BOS,1,09:45,2019-05-28,-37.0,-73.0,Home
+49,Hit,Brad Marchand hit Brayden Schenn,Boston Bruins,BOS,1,09:57,2019-05-28,39.0,-31.0,Home
+50,Giveaway,Giveaway by Brayden Schenn,St. Louis Blues,STL,1,10:00,2019-05-28,35.0,-63.0,Away
+51,Hit,David Pastrnak hit Colton Parayko,Boston Bruins,BOS,1,10:14,2019-05-28,24.0,92.0,Home
+52,Shot,Oskar Sundqvist Wrist Shot saved by Tuukka Rask,St. Louis Blues,STL,1,11:18,2019-05-28,9.0,-52.0,Away
+53,Hit,Ivan Barbashev hit Noel Acciari,St. Louis Blues,STL,1,11:23,2019-05-28,35.0,-38.0,Away
+54,Hit,David Backes hit Jay Bouwmeester,Boston Bruins,BOS,1,11:36,2019-05-28,-8.0,96.0,Home
+55,Takeaway,Takeaway by Sammy Blais,St. Louis Blues,STL,1,11:42,2019-05-28,20.0,-17.0,Away
+56,Blocked Shot,Marcus Johansson,Boston Bruins,BOS,1,12:24,2019-05-28,20.0,-49.0,Home
+57,Blocked Shot,David Backes,Boston Bruins,BOS,1,12:35,2019-05-28,8.0,-70.0,Home
+58,Hit,Brayden Schenn hit Charlie McAvoy,St. Louis Blues,STL,1,12:36,2019-05-28,-37.0,-65.0,Away
+59,Shot,Jay Bouwmeester Slap Shot saved by Tuukka Rask,St. Louis Blues,STL,1,12:36,2019-05-28,-29.0,-38.0,Away
+61,Faceoff,Ryan O'Reilly faceoff won against Charlie Coyle,St. Louis Blues,STL,1,13:14,2019-05-28,-22.0,-69.0,Away
+62,Shot,Colton Parayko Slap Shot saved by Tuukka Rask,St. Louis Blues,STL,1,13:15,2019-05-28,24.0,-39.0,Away
+63,Blocked Shot,Jay Bouwmeester,St. Louis Blues,STL,1,13:15,2019-05-28,1.0,64.0,Away
+64,Faceoff,Patrice Bergeron faceoff won against Ryan O'Reilly,Boston Bruins,BOS,1,13:21,2019-05-28,22.0,69.0,Home
+65,Penalty,David Perron Tripping against Danton Heinen,St. Louis Blues,STL,1,13:25,2019-05-28,17.0,-43.0,Away
+66,Giveaway,Giveaway by Jay Bouwmeester,St. Louis Blues,STL,1,13:41,2019-05-28,-18.0,63.0,Away
+67,Missed Shot,Torey Krug - Wide of Net,Boston Bruins,BOS,1,13:44,2019-05-28,16.0,37.0,Home
+68,Shot,Torey Krug Snap Shot saved by Jordan Binnington,Boston Bruins,BOS,1,13:44,2019-05-28,25.0,-60.0,Home
+70,Faceoff,Oskar Sundqvist faceoff won against Patrice Bergeron,St. Louis Blues,STL,1,14:06,2019-05-28,22.0,20.0,Away
+71,Hit,Ivan Barbashev hit Jake DeBrusk,St. Louis Blues,STL,1,14:22,2019-05-28,9.0,98.0,Away
+72,Shot,Alex Pietrangelo Wrist Shot saved by Tuukka Rask,St. Louis Blues,STL,1,14:37,2019-05-28,10.0,-19.0,Away
+73,Takeaway,Takeaway by David Pastrnak,Boston Bruins,BOS,1,14:53,2019-05-28,-29.0,75.0,Home
+74,Hit,Alexander Steen hit Brad Marchand,St. Louis Blues,STL,1,14:58,2019-05-28,-37.0,51.0,Away
+75,Missed Shot,Marcus Johansson - Goalpost,Boston Bruins,BOS,1,15:02,2019-05-28,4.0,61.0,Home
+76,Shot,Charlie Coyle Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,1,15:02,2019-05-28,11.0,63.0,Home
+77,Blocked Shot,Carl Gunnarsson,St. Louis Blues,STL,1,15:02,2019-05-28,11.0,70.0,Away
+79,Faceoff,Ryan O'Reilly faceoff won against Charlie Coyle,St. Louis Blues,STL,1,16:45,2019-05-28,22.0,69.0,Away
+80,Takeaway,Takeaway by Sean Kuraly,Boston Bruins,BOS,1,16:45,2019-05-28,30.0,-43.0,Home
+81,Penalty,Robert Thomas Hooking against Patrice Bergeron,St. Louis Blues,STL,1,16:45,2019-05-28,-13.0,15.0,Away
+83,Faceoff,Ryan O'Reilly faceoff won against Patrice Bergeron,St. Louis Blues,STL,1,17:52,2019-05-28,-22.0,69.0,Away
+84,Takeaway,Takeaway by Jay Bouwmeester,St. Louis Blues,STL,1,18:28,2019-05-28,-34.0,38.0,Away
+85,Hit,Ivan Barbashev hit Marcus Johansson,St. Louis Blues,STL,1,18:28,2019-05-28,36.0,51.0,Away
+86,Shot,Charlie Coyle Deflected saved by Jordan Binnington,Boston Bruins,BOS,1,18:28,2019-05-28,1.0,79.0,Home
+88,Faceoff,Patrice Bergeron faceoff won against Oskar Sundqvist,Boston Bruins,BOS,1,18:39,2019-05-28,22.0,69.0,Home
+89,Giveaway,Giveaway by Patrice Bergeron,Boston Bruins,BOS,1,18:49,2019-05-28,32.0,75.0,Home
+90,Giveaway,Giveaway by Oskar Sundqvist,St. Louis Blues,STL,1,18:59,2019-05-28,14.0,46.0,Away
+91,Missed Shot,Torey Krug - Wide of Net,Boston Bruins,BOS,1,19:21,2019-05-28,25.0,45.0,Home
+92,Hit,Jaden Schwartz hit Patrice Bergeron,St. Louis Blues,STL,1,19:32,2019-05-28,-35.0,-37.0,Away
+93,Hit,Joakim Nordstrom hit Vladimir Tarasenko,Boston Bruins,BOS,1,19:48,2019-05-28,36.0,-35.0,Home
+94,Hit,Noel Acciari hit Joel Edmundson,Boston Bruins,BOS,1,19:51,2019-05-28,28.0,92.0,Home
+95,Takeaway,Takeaway by Jaden Schwartz,St. Louis Blues,STL,1,20:00,2019-05-28,-32.0,-93.0,Away
+96,Blocked Shot,Zdeno Chara,Boston Bruins,BOS,1,20:00,2019-05-28,10.0,-70.0,Home
+101,Faceoff,Noel Acciari faceoff won against Ivan Barbashev,Boston Bruins,BOS,2,00:48,2019-05-28,0.0,0.0,Home
+103,Faceoff,Patrice Bergeron faceoff won against Brayden Schenn,Boston Bruins,BOS,2,01:00,2019-05-28,22.0,-20.0,Home
+104,Giveaway,Giveaway by David Pastrnak,Boston Bruins,BOS,2,01:00,2019-05-28,-3.0,97.0,Home
+105,Goal,"Vladimir Tarasenko (9) Wrist Shot, assists: Brayden Schenn (6)",St. Louis Blues,STL,2,01:09,2019-05-28,1.0,64.0,Away
+106,Faceoff,David Krejci faceoff won against Brayden Schenn,Boston Bruins,BOS,2,01:09,2019-05-28,0.0,0.0,Home
+108,Faceoff,Ryan O'Reilly faceoff won against Charlie Coyle,St. Louis Blues,STL,2,02:16,2019-05-28,22.0,-20.0,Away
+109,Hit,Sammy Blais hit Charlie Coyle,St. Louis Blues,STL,2,02:16,2019-05-28,-36.0,55.0,Away
+110,Goal,"Connor Clifton (2) Wrist Shot, assists: Sean Kuraly (4), Joakim Nordstrom (3)",Boston Bruins,BOS,2,02:28,2019-05-28,-7.0,-77.0,Home
+111,Faceoff,Ivan Barbashev faceoff won against David Krejci,St. Louis Blues,STL,2,02:35,2019-05-28,0.0,0.0,Away
+112,Hit,Ivan Barbashev hit Connor Clifton,St. Louis Blues,STL,2,02:46,2019-05-28,37.0,79.0,Away
+113,Missed Shot,Matt Grzelcyk - Wide of Net,Boston Bruins,BOS,2,02:48,2019-05-28,-25.0,-63.0,Home
+114,Missed Shot,Jake DeBrusk - Wide of Net,Boston Bruins,BOS,2,02:48,2019-05-28,-15.0,-67.0,Home
+115,Blocked Shot,Alexander Steen,St. Louis Blues,STL,2,02:48,2019-05-28,13.0,-79.0,Away
+117,Faceoff,Charlie Coyle faceoff won against Brayden Schenn,Boston Bruins,BOS,2,03:12,2019-05-28,22.0,-69.0,Home
+118,Missed Shot,Charlie Coyle - Wide of Net,Boston Bruins,BOS,2,03:27,2019-05-28,8.0,-65.0,Home
+119,Takeaway,Takeaway by Vladimir Tarasenko,St. Louis Blues,STL,2,03:35,2019-05-28,-35.0,-42.0,Away
+120,Shot,Marcus Johansson Snap Shot saved by Jordan Binnington,Boston Bruins,BOS,2,04:12,2019-05-28,-1.0,-61.0,Home
+121,Takeaway,Takeaway by Marcus Johansson,Boston Bruins,BOS,2,04:26,2019-05-28,11.0,26.0,Home
+122,Missed Shot,Jay Bouwmeester - Wide of Net,St. Louis Blues,STL,2,04:42,2019-05-28,16.0,32.0,Away
+123,Blocked Shot,Zdeno Chara,Boston Bruins,BOS,2,05:01,2019-05-28,8.0,70.0,Home
+124,Giveaway,Giveaway by Sean Kuraly,Boston Bruins,BOS,2,05:01,2019-05-28,33.0,-50.0,Home
+125,Shot,Sean Kuraly Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,05:01,2019-05-28,3.0,-35.0,Home
+127,Faceoff,David Krejci faceoff won against Oskar Sundqvist,Boston Bruins,BOS,2,05:25,2019-05-28,-22.0,-69.0,Home
+128,Shot,David Backes Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,05:25,2019-05-28,32.0,-38.0,Home
+129,Penalty,Joel Edmundson Hi-sticking against David Backes,St. Louis Blues,STL,2,05:34,2019-05-28,26.0,-52.0,Away
+130,Faceoff,Patrice Bergeron faceoff won against Ryan O'Reilly,Boston Bruins,BOS,2,05:34,2019-05-28,22.0,-69.0,Home
+131,Shot,Patrice Bergeron Deflected saved by Jordan Binnington,Boston Bruins,BOS,2,05:34,2019-05-28,2.0,-74.0,Home
+133,Faceoff,Patrice Bergeron faceoff won against Ryan O'Reilly,Boston Bruins,BOS,2,05:52,2019-05-28,22.0,-69.0,Home
+134,Missed Shot,Torey Krug - Over Net,Boston Bruins,BOS,2,06:36,2019-05-28,14.0,-44.0,Home
+135,Hit,Robert Bortuzzo hit Brad Marchand,St. Louis Blues,STL,2,07:11,2019-05-28,36.0,-79.0,Away
+136,Missed Shot,Marcus Johansson - Wide of Net,Boston Bruins,BOS,2,07:16,2019-05-28,-21.0,-81.0,Home
+137,Shot,Brad Marchand Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,07:25,2019-05-28,-1.0,-53.0,Home
+138,Shot,Torey Krug Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,07:25,2019-05-28,33.0,-65.0,Home
+140,Faceoff,Brayden Schenn faceoff won against Sean Kuraly,St. Louis Blues,STL,2,07:43,2019-05-28,-22.0,20.0,Away
+141,Hit,Zdeno Chara hit Jaden Schwartz,Boston Bruins,BOS,2,07:44,2019-05-28,-37.0,36.0,Home
+142,Blocked Shot,Charlie McAvoy,Boston Bruins,BOS,2,07:44,2019-05-28,17.0,79.0,Home
+143,Shot,Robert Bortuzzo Snap Shot saved by Tuukka Rask,St. Louis Blues,STL,2,07:44,2019-05-28,-28.0,59.0,Away
+145,Faceoff,Sean Kuraly faceoff won against Brayden Schenn,Boston Bruins,BOS,2,07:59,2019-05-28,-22.0,69.0,Home
+147,Faceoff,Charlie Coyle faceoff won against Ryan O'Reilly,Boston Bruins,BOS,2,08:22,2019-05-28,22.0,69.0,Home
+148,Takeaway,Takeaway by Danton Heinen,Boston Bruins,BOS,2,08:46,2019-05-28,26.0,-57.0,Home
+149,Blocked Shot,Joel Edmundson,St. Louis Blues,STL,2,08:48,2019-05-28,15.0,-72.0,Away
+150,Giveaway,Giveaway by David Perron,St. Louis Blues,STL,2,09:20,2019-05-28,27.0,93.0,Away
+151,Hit,David Perron hit Charlie Coyle,St. Louis Blues,STL,2,10:02,2019-05-28,34.0,30.0,Away
+152,Hit,Jaden Schwartz hit Charlie McAvoy,St. Louis Blues,STL,2,10:12,2019-05-28,36.0,60.0,Away
+153,Giveaway,Giveaway by Robert Thomas,St. Louis Blues,STL,2,10:23,2019-05-28,13.0,37.0,Away
+154,Blocked Shot,Alex Pietrangelo,St. Louis Blues,STL,2,10:23,2019-05-28,1.0,-55.0,Away
+155,Shot,David Backes Snap Shot saved by Jordan Binnington,Boston Bruins,BOS,2,10:23,2019-05-28,-12.0,-59.0,Home
+157,Faceoff,David Krejci faceoff won against Oskar Sundqvist,Boston Bruins,BOS,2,10:29,2019-05-28,-22.0,-69.0,Home
+158,Shot,David Backes Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,10:29,2019-05-28,-9.0,-43.0,Home
+160,Faceoff,Tyler Bozak faceoff won against David Krejci,St. Louis Blues,STL,2,11:04,2019-05-28,-22.0,-69.0,Away
+161,Hit,Ivan Barbashev hit Matt Grzelcyk,St. Louis Blues,STL,2,11:04,2019-05-28,-36.0,82.0,Away
+162,Penalty,Oskar Sundqvist Cross checking against Connor Clifton,St. Louis Blues,STL,2,11:44,2019-05-28,38.0,12.0,Away
+163,Faceoff,Ryan O'Reilly faceoff won against Patrice Bergeron,St. Louis Blues,STL,2,12:02,2019-05-28,-22.0,-69.0,Away
+164,Shot,Alex Pietrangelo Slap Shot saved by Tuukka Rask,St. Louis Blues,STL,2,12:26,2019-05-28,-26.0,42.0,Away
+165,Giveaway,Giveaway by Torey Krug,Boston Bruins,BOS,2,12:30,2019-05-28,11.0,-95.0,Home
+166,Shot,David Krejci Deflected saved by Jordan Binnington,Boston Bruins,BOS,2,12:41,2019-05-28,20.0,-82.0,Home
+167,Shot,Patrice Bergeron Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,12:41,2019-05-28,1.0,-82.0,Home
+168,Goal,"Charlie McAvoy (2) Wrist Shot, assists: none",Boston Bruins,BOS,2,12:41,2019-05-28,7.0,-60.0,Home
+169,Hit,Noel Acciari hit Ryan O'Reilly,Boston Bruins,BOS,2,13:08,2019-05-28,37.0,-8.0,Home
+170,Faceoff,Oskar Sundqvist faceoff won against Noel Acciari,St. Louis Blues,STL,2,13:28,2019-05-28,0.0,0.0,Away
+171,Missed Shot,Vladimir Tarasenko - Wide of Net,St. Louis Blues,STL,2,13:35,2019-05-28,-15.0,82.0,Away
+172,Giveaway,Giveaway by Joakim Nordstrom,Boston Bruins,BOS,2,13:42,2019-05-28,-2.0,34.0,Home
+173,Hit,Joakim Nordstrom hit Alex Pietrangelo,Boston Bruins,BOS,2,13:50,2019-05-28,-36.0,10.0,Home
+174,Hit,Joakim Nordstrom hit Ryan O'Reilly,Boston Bruins,BOS,2,14:31,2019-05-28,33.0,-31.0,Home
+175,Shot,Danton Heinen Deflected saved by Jordan Binnington,Boston Bruins,BOS,2,14:41,2019-05-28,-2.0,-74.0,Home
+176,Giveaway,Giveaway by Alexander Steen,St. Louis Blues,STL,2,14:50,2019-05-28,10.0,-58.0,Away
+177,Blocked Shot,Joel Edmundson,St. Louis Blues,STL,2,14:50,2019-05-28,14.0,-73.0,Away
+178,Shot,Torey Krug Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,14:50,2019-05-28,-10.0,-48.0,Home
+180,Faceoff,Brayden Schenn faceoff won against Noel Acciari,St. Louis Blues,STL,2,14:56,2019-05-28,22.0,-69.0,Away
+181,Hit,Joakim Nordstrom hit Jay Bouwmeester,Boston Bruins,BOS,2,14:56,2019-05-28,36.0,-90.0,Home
+183,Faceoff,Brayden Schenn faceoff won against Noel Acciari,St. Louis Blues,STL,2,15:30,2019-05-28,22.0,-20.0,Away
+184,Hit,Noel Acciari hit Brayden Schenn,Boston Bruins,BOS,2,15:30,2019-05-28,-38.0,14.0,Home
+185,Shot,Noel Acciari Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,15:30,2019-05-28,8.0,-73.0,Home
+187,Faceoff,Patrice Bergeron faceoff won against Ryan O'Reilly,Boston Bruins,BOS,2,16:21,2019-05-28,22.0,-69.0,Home
+188,Shot,Brad Marchand Backhand saved by Jordan Binnington,Boston Bruins,BOS,2,16:39,2019-05-28,12.0,-74.0,Home
+189,Hit,Charlie Coyle hit Alex Pietrangelo,Boston Bruins,BOS,2,16:40,2019-05-28,-36.0,10.0,Home
+190,Hit,Tyler Bozak hit Danton Heinen,St. Louis Blues,STL,2,16:40,2019-05-28,-34.0,-79.0,Away
+191,Faceoff,Tyler Bozak faceoff won against David Krejci,St. Louis Blues,STL,2,16:58,2019-05-28,-22.0,-69.0,Away
+193,Hit,David Krejci hit Robert Bortuzzo,Boston Bruins,BOS,2,17:34,2019-05-28,-9.0,-97.0,Home
+194,Blocked Shot,Tyler Bozak,St. Louis Blues,STL,2,17:54,2019-05-28,4.0,-61.0,Away
+195,Giveaway,Giveaway by David Krejci,Boston Bruins,BOS,2,18:06,2019-05-28,32.0,-51.0,Home
+196,Takeaway,Takeaway by Joakim Nordstrom,Boston Bruins,BOS,2,18:21,2019-05-28,29.0,38.0,Home
+197,Hit,Colton Parayko hit Noel Acciari,St. Louis Blues,STL,2,18:24,2019-05-28,-37.0,-53.0,Away
+198,Hit,Alexander Steen hit Charlie McAvoy,St. Louis Blues,STL,2,18:25,2019-05-28,-35.0,-78.0,Away
+199,Shot,Joakim Nordstrom Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,18:41,2019-05-28,-10.0,-40.0,Home
+200,Hit,Noel Acciari hit Alexander Steen,Boston Bruins,BOS,2,18:59,2019-05-28,-36.0,-57.0,Home
+201,Missed Shot,Brad Marchand - Goalpost,Boston Bruins,BOS,2,18:59,2019-05-28,7.0,-37.0,Home
+202,Shot,Patrice Bergeron Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,2,18:59,2019-05-28,-6.0,-83.0,Home
+204,Faceoff,Ryan O'Reilly faceoff won against Charlie Coyle,St. Louis Blues,STL,2,19:05,2019-05-28,-22.0,-69.0,Away
+205,Faceoff,Ryan O'Reilly faceoff won against Charlie Coyle,St. Louis Blues,STL,2,19:17,2019-05-28,22.0,-69.0,Away
+207,Hit,Danton Heinen hit Joel Edmundson,Boston Bruins,BOS,2,20:00,2019-05-28,-8.0,-94.0,Home
+208,Takeaway,Takeaway by Marcus Johansson,Boston Bruins,BOS,2,20:00,2019-05-28,-18.0,49.0,Home
+213,Faceoff,Oskar Sundqvist faceoff won against Patrice Bergeron,St. Louis Blues,STL,3,00:14,2019-05-28,0.0,0.0,Away
+215,Faceoff,Patrice Bergeron faceoff won against Oskar Sundqvist,Boston Bruins,BOS,3,00:26,2019-05-28,0.0,0.0,Home
+217,Faceoff,Sean Kuraly faceoff won against Brayden Schenn,Boston Bruins,BOS,3,00:56,2019-05-28,22.0,20.0,Home
+218,Shot,Sean Kuraly Snap Shot saved by Jordan Binnington,Boston Bruins,BOS,3,00:56,2019-05-28,-21.0,69.0,Home
+219,Faceoff,Charlie Coyle faceoff won against Ryan O'Reilly,Boston Bruins,BOS,3,01:00,2019-05-28,-22.0,69.0,Home
+221,Shot,Brandon Carlo Snap Shot saved by Jordan Binnington,Boston Bruins,BOS,3,01:36,2019-05-28,-23.0,36.0,Home
+222,Takeaway,Takeaway by Brandon Carlo,Boston Bruins,BOS,3,01:39,2019-05-28,-14.0,30.0,Home
+223,Giveaway,Giveaway by David Perron,St. Louis Blues,STL,3,02:17,2019-05-28,35.0,66.0,Away
+224,Hit,Danton Heinen hit David Perron,Boston Bruins,BOS,3,02:32,2019-05-28,38.0,55.0,Home
+225,Blocked Shot,David Backes,Boston Bruins,BOS,3,02:38,2019-05-28,-9.0,-57.0,Home
+226,Hit,Pat Maroon hit Connor Clifton,St. Louis Blues,STL,3,02:47,2019-05-28,-13.0,-94.0,Away
+227,Shot,David Krejci Backhand saved by Jordan Binnington,Boston Bruins,BOS,3,02:47,2019-05-28,2.0,61.0,Home
+228,Faceoff,Brayden Schenn faceoff won against Noel Acciari,St. Louis Blues,STL,3,02:57,2019-05-28,-22.0,20.0,Away
+231,Faceoff,Brayden Schenn faceoff won against Noel Acciari,St. Louis Blues,STL,3,03:24,2019-05-28,-22.0,69.0,Away
+232,Hit,Joel Edmundson hit Sean Kuraly,St. Louis Blues,STL,3,03:36,2019-05-28,-32.0,12.0,Away
+233,Hit,Sean Kuraly hit Oskar Sundqvist,Boston Bruins,BOS,3,03:36,2019-05-28,-34.0,-86.0,Home
+234,Hit,Noel Acciari hit Robert Bortuzzo,Boston Bruins,BOS,3,03:36,2019-05-28,36.0,22.0,Home
+236,Faceoff,Patrice Bergeron faceoff won against Ryan O'Reilly,Boston Bruins,BOS,3,04:06,2019-05-28,22.0,20.0,Home
+237,Hit,Ryan O'Reilly hit Brandon Carlo,St. Louis Blues,STL,3,04:25,2019-05-28,-35.0,-81.0,Away
+238,Shot,David Pastrnak Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,3,04:25,2019-05-28,-1.0,42.0,Home
+240,Faceoff,Charlie Coyle faceoff won against Tyler Bozak,Boston Bruins,BOS,3,04:33,2019-05-28,22.0,69.0,Home
+241,Shot,Pat Maroon Wrist Shot saved by Tuukka Rask,St. Louis Blues,STL,3,04:33,2019-05-28,-7.0,-21.0,Away
+243,Faceoff,Charlie Coyle faceoff won against Tyler Bozak,Boston Bruins,BOS,3,04:47,2019-05-28,-22.0,-69.0,Home
+244,Takeaway,Takeaway by Pat Maroon,St. Louis Blues,STL,3,05:08,2019-05-28,-35.0,-67.0,Away
+245,Missed Shot,Pat Maroon - Wide of Net,St. Louis Blues,STL,3,05:13,2019-05-28,-13.0,-67.0,Away
+246,Takeaway,Takeaway by Connor Clifton,Boston Bruins,BOS,3,05:21,2019-05-28,-35.0,-23.0,Home
+247,Hit,Sean Kuraly hit Carl Gunnarsson,Boston Bruins,BOS,3,05:21,2019-05-28,25.0,92.0,Home
+248,Shot,Zdeno Chara Snap Shot saved by Jordan Binnington,Boston Bruins,BOS,3,05:21,2019-05-28,30.0,34.0,Home
+249,Goal,"Sean Kuraly (3) Wrist Shot, assists: Noel Acciari (2), Zdeno Chara (3)",Boston Bruins,BOS,3,05:35,2019-05-28,-7.0,82.0,Home
+250,Faceoff,Patrice Bergeron faceoff won against Oskar Sundqvist,Boston Bruins,BOS,3,05:35,2019-05-28,0.0,0.0,Home
+251,Faceoff,Patrice Bergeron faceoff won against Oskar Sundqvist,Boston Bruins,BOS,3,05:46,2019-05-28,22.0,-69.0,Home
+253,Giveaway,Giveaway by Oskar Sundqvist,St. Louis Blues,STL,3,06:55,2019-05-28,-27.0,-12.0,Away
+254,Hit,David Backes hit Carl Gunnarsson,Boston Bruins,BOS,3,06:55,2019-05-28,-38.0,38.0,Home
+255,Penalty,David Krejci Illegal check to head against Sammy Blais,Boston Bruins,BOS,3,06:55,2019-05-28,-30.0,-28.0,Home
+257,Faceoff,Ryan O'Reilly faceoff won against Patrice Bergeron,St. Louis Blues,STL,3,08:15,2019-05-28,-22.0,-69.0,Away
+258,Shot,Brayden Schenn Wrist Shot saved by Tuukka Rask,St. Louis Blues,STL,3,08:54,2019-05-28,-13.0,-75.0,Away
+259,Missed Shot,David Perron - Wide of Net,St. Louis Blues,STL,3,09:05,2019-05-28,16.0,-42.0,Away
+260,Hit,David Perron hit Danton Heinen,St. Louis Blues,STL,3,09:25,2019-05-28,35.0,-81.0,Away
+261,Shot,Brayden Schenn Snap Shot saved by Tuukka Rask,St. Louis Blues,STL,3,09:36,2019-05-28,20.0,-46.0,Away
+262,Hit,Connor Clifton hit Jaden Schwartz,Boston Bruins,BOS,3,09:41,2019-05-28,-11.0,-95.0,Home
+263,Missed Shot,Charlie McAvoy - Wide of Net,Boston Bruins,BOS,3,09:41,2019-05-28,-12.0,79.0,Home
+264,Shot,Noel Acciari Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,3,09:41,2019-05-28,2.0,68.0,Home
+265,Hit,Torey Krug hit Robert Thomas,Boston Bruins,BOS,3,09:41,2019-05-28,34.0,51.0,Home
+267,Faceoff,Charlie Coyle faceoff won against Ryan O'Reilly,Boston Bruins,BOS,3,10:49,2019-05-28,22.0,69.0,Home
+268,Hit,Sammy Blais hit Zdeno Chara,St. Louis Blues,STL,3,11:08,2019-05-28,-2.0,-94.0,Away
+269,Hit,David Pastrnak hit Jay Bouwmeester,Boston Bruins,BOS,3,11:08,2019-05-28,24.0,96.0,Home
+270,Shot,Brad Marchand Wrist Shot saved by Jordan Binnington,Boston Bruins,BOS,3,11:08,2019-05-28,27.0,37.0,Home
+272,Faceoff,David Krejci faceoff won against Tyler Bozak,Boston Bruins,BOS,3,11:12,2019-05-28,22.0,69.0,Home
+273,Shot,Jake DeBrusk Snap Shot saved by Jordan Binnington,Boston Bruins,BOS,3,11:12,2019-05-28,28.0,82.0,Home
+275,Faceoff,Tyler Bozak faceoff won against David Krejci,St. Louis Blues,STL,3,12:06,2019-05-28,22.0,69.0,Away
+276,Hit,Ivan Barbashev hit Matt Grzelcyk,St. Louis Blues,STL,3,12:19,2019-05-28,31.0,-90.0,Away
+277,Takeaway,Takeaway by Oskar Sundqvist,St. Louis Blues,STL,3,12:31,2019-05-28,0.0,67.0,Away
+278,Giveaway,Giveaway by Jaden Schwartz,St. Louis Blues,STL,3,12:41,2019-05-28,30.0,-36.0,Away
+279,Takeaway,Takeaway by Zdeno Chara,Boston Bruins,BOS,3,12:49,2019-05-28,31.0,-47.0,Home
+280,Hit,Vladimir Tarasenko hit David Pastrnak,St. Louis Blues,STL,3,13:00,2019-05-28,13.0,48.0,Away
+281,Giveaway,Giveaway by Patrice Bergeron,Boston Bruins,BOS,3,13:02,2019-05-28,-12.0,94.0,Home
+282,Hit,Sammy Blais hit Charlie McAvoy,St. Louis Blues,STL,3,13:02,2019-05-28,37.0,-46.0,Away
+284,Faceoff,Charlie Coyle faceoff won against Ryan O'Reilly,Boston Bruins,BOS,3,13:16,2019-05-28,22.0,20.0,Home
+285,Shot,Torey Krug Slap Shot saved by Jordan Binnington,Boston Bruins,BOS,3,13:28,2019-05-28,4.0,-7.0,Home
+286,Hit,Danton Heinen hit David Perron,Boston Bruins,BOS,3,13:28,2019-05-28,36.0,37.0,Home
+287,Faceoff,Patrice Bergeron faceoff won against Ryan O'Reilly,Boston Bruins,BOS,3,13:38,2019-05-28,22.0,69.0,Home
+288,Penalty,Sammy Blais Interference against Charlie Coyle,St. Louis Blues,STL,3,13:39,2019-05-28,-4.0,69.0,Away
+289,Hit,Robert Bortuzzo hit David Pastrnak,St. Louis Blues,STL,3,14:14,2019-05-28,35.0,70.0,Away
+290,Missed Shot,Brad Marchand - Wide of Net,Boston Bruins,BOS,3,14:21,2019-05-28,-19.0,75.0,Home
+291,Shot,David Pastrnak Deflected saved by Jordan Binnington,Boston Bruins,BOS,3,14:44,2019-05-28,-4.0,79.0,Home
+292,Giveaway,Giveaway by Patrice Bergeron,Boston Bruins,BOS,3,15:30,2019-05-28,-21.0,94.0,Home
+293,Hit,Robert Bortuzzo hit David Krejci,St. Louis Blues,STL,3,15:35,2019-05-28,16.0,96.0,Away
+294,Missed Shot,Marcus Johansson - Wide of Net,Boston Bruins,BOS,3,15:49,2019-05-28,-17.0,76.0,Home
+295,Hit,Colton Parayko hit Matt Grzelcyk,St. Louis Blues,STL,3,16:04,2019-05-28,37.0,69.0,Away
+296,Hit,Noel Acciari hit Vladimir Tarasenko,Boston Bruins,BOS,3,16:04,2019-05-28,38.0,68.0,Home
+297,Blocked Shot,Sean Kuraly,Boston Bruins,BOS,3,16:04,2019-05-28,-8.0,-61.0,Home
+299,Faceoff,Brayden Schenn faceoff won against Noel Acciari,St. Louis Blues,STL,3,16:37,2019-05-28,-22.0,-69.0,Away
+300,Shot,Jaden Schwartz Slap Shot saved by Tuukka Rask,St. Louis Blues,STL,3,16:47,2019-05-28,8.0,-42.0,Away
+301,Hit,Jaden Schwartz hit Joakim Nordstrom,St. Louis Blues,STL,3,16:52,2019-05-28,-36.0,-79.0,Away
+302,Shot,Vladimir Tarasenko Backhand saved by Tuukka Rask,St. Louis Blues,STL,3,17:45,2019-05-28,16.0,-78.0,Away
+303,Shot,Alex Pietrangelo Snap Shot saved by Tuukka Rask,St. Louis Blues,STL,3,17:47,2019-05-28,-1.0,-36.0,Away
+304,Missed Shot,Jay Bouwmeester - Wide of Net,St. Louis Blues,STL,3,17:47,2019-05-28,8.0,-32.0,Away
+306,Faceoff,Patrice Bergeron faceoff won against Ryan O'Reilly,Boston Bruins,BOS,3,18:11,2019-05-28,-22.0,-69.0,Home
+307,Goal,"Brad Marchand (8) Wrist Shot, assists: none",Boston Bruins,BOS,3,18:36,2019-05-28,35.0,42.0,Home
+308,Faceoff,Sean Kuraly faceoff won against Tyler Bozak,Boston Bruins,BOS,3,18:42,2019-05-28,0.0,0.0,Home
+309,Missed Shot,Alexander Steen - Over Net,St. Louis Blues,STL,3,19:06,2019-05-28,-1.0,-82.0,Away
+310,Blocked Shot,Charlie McAvoy,Boston Bruins,BOS,3,19:16,2019-05-28,7.0,-71.0,Home
+311,Hit,Brandon Carlo hit Vladimir Tarasenko,Boston Bruins,BOS,3,19:35,2019-05-28,-29.0,-70.0,Home
+312,Blocked Shot,Patrice Bergeron,Boston Bruins,BOS,3,19:44,2019-05-28,9.0,-58.0,Home
+313,Missed Shot,Brad Marchand - Wide of Net,Boston Bruins,BOS,3,19:46,2019-05-28,28.0,52.0,Home
+314,Shot,Ryan O'Reilly Wrist Shot saved by Tuukka Rask,St. Louis Blues,STL,3,19:46,2019-05-28,29.0,-63.0,Away
+316,Faceoff,Ryan O'Reilly faceoff won against Sean Kuraly,St. Louis Blues,STL,3,19:58,2019-05-28,22.0,-69.0,Away
+317,Shot,Brayden Schenn Backhand saved by Tuukka Rask,St. Louis Blues,STL,3,19:59,2019-05-28,3.0,-81.0,Away
+318,Blocked Shot,Joakim Nordstrom,Boston Bruins,BOS,3,20:00,2019-05-28,11.0,-69.0,Home
+319,Shot,Brayden Schenn Deflected saved by Tuukka Rask,St. Louis Blues,STL,3,20:00,2019-05-28,2.0,-79.0,Away
