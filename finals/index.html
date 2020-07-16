@@ -16,13 +16,34 @@
   <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
   <!-- mapbox style close -->
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 </head>
 <body>
 
-	<div id="map"></div><nav id="filter-group" class="filter-group"></nav>
-	<script src="js/javascript.js"></script>
+	<!-- <div id="map"></div><nav id="filter-group" class="filter-group"></nav>
+	<script src="js/javascript.js"></script> -->
   <!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
 
-
+<!-- scrolling="no" -->
+<select id="selector">
+    <option value="0">Select Game</option>
+    <option value="https://hockeyrink.geospatial.is/finals/game1">Game 1</option>
+    <option value="https://hockeyrink.geospatial.is/finals/game2">Game 2</option>
+    <option value="https://hockeyrink.geospatial.is/finals/game3">Game 3</option>
+		<option value="https://hockeyrink.geospatial.is/finals/game4">Game 4</option>
+		<option value="https://hockeyrink.geospatial.is/finals/game5">Game 5</option>
+		<option value="https://hockeyrink.geospatial.is/finals/game6">Game 6</option>
+		<option value="https://hockeyrink.geospatial.is/finals/game7">Game 7</option>
+</select>
+<div>
+    <iframe src="about:blank" frameborder="0" id="iframeId"></iframe>
+</div>
+<script>
+$(document).ready(function(){
+    $("#selector").change(function(){
+        $("#iframeId").attr("src", $(this).val());
+    });
+});
+</script>
 </body>
 </html>
