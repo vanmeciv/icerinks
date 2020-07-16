@@ -33,6 +33,13 @@ map.on('load', function () {
     });
   });
 
+
+$(document).ready(function(){
+  $("#selector").change(function(){
+      $("#iframeId").attr("src", $(this).val());
+  });
+});
+
   // map.addSource('contours', {
   //   type: 'vector',
   //   url: 'mapbox://mapbox.mapbox-terrain-v2'
