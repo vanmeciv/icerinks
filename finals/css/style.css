@@ -5,10 +5,10 @@ body {
 
 html, body, #map {
   height: 100%;
-  width: 100vw;
+  /* width: 100vw;
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 0; */
 }
 .filter-group {
 font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -60,7 +60,7 @@ margin-right: 5px;
 
 iframe {
 border: none;
-/* overflow: hidden; */
+overflow: hidden;
 /* margin-top: -14675px; */
 /* height: 15200px; */
 /* margin-top: -10%; */
