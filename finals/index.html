@@ -36,12 +36,12 @@
 		<option value="https://hockeyrink.geospatial.is/finals/game7">Game 7</option>
 </select>
 <div>
-    <iframe src="about:blank" frameborder="0" id="iframeId"></iframe>
+    <iframe src="about:blank" frameborder="0" id="iframe"></iframe>
 </div>
 <script>
 $(document).ready(function(){
     $("#selector").change(function(){
-        $("#iframeId").attr("src", $(this).val());
+        $("#iframe").attr("src", $(this).val());
     });
 });
 </script>
