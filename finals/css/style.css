@@ -9,6 +9,7 @@ html, body, #map {
   position: absolute;
   top: 0;
   bottom: 0; */
+  overflow: hidden;
 }
 .filter-group {
 font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
