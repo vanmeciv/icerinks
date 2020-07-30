@@ -1,18 +1,6 @@
 # icerinks
 
 
-
-
-
-
-
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-
--->
-
 ## Table of Contents
 - [Finals](#finals)
 - [Hexbin](#hexbin)
