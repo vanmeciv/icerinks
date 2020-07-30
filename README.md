@@ -1,11 +1,7 @@
 # icerinks
 
-https://github.com/vanmeciv/icerinks/tree/master/finals
-![Recordit GIF](http://g.recordit.co/suz077M7MR.gif)
 
 
-https://github.com/vanmeciv/icerinks/tree/master/hexbin
-![Recordit GIF](http://g.recordit.co/cTF8VBACTN.gif)
 
 
 
@@ -27,9 +23,12 @@ https://github.com/vanmeciv/icerinks/tree/master/hexbin
 ## Finals
 - Finals <a href="https://github.com/vanmeciv/icerinks/tree/master/finals" target="_blank">Repository</a>
 
+![Recordit GIF](http://g.recordit.co/suz077M7MR.gif)
 ---
 ## Hexbin
 - Hexbin <a href="https://github.com/vanmeciv/icerinks/tree/master/hexbin" target="_blank">Repository</a> 
+
+![Recordit GIF](http://g.recordit.co/cTF8VBACTN.gif)
 
 ---
 ## Support
