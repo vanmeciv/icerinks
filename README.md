@@ -1,4 +1,4 @@
 # icerinks
 
 
-![Recordit GIF](http://g.recordit.co/3ETz7JUzWb.gif)
+![Recordit GIF](http://g.recordit.co/m06xNxWSHY.gif)
