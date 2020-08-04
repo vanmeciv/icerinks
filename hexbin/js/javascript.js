@@ -23,9 +23,9 @@ map.on('load', function() {
         // Sets image size
         "coordinates": [
           [-145, 60], //NW corner
-          [135,60], //NE Corner
-          [135,-75], //SW Corner
-          [-145,-75] //SW Corner
+          [135, 60], //NE Corner
+          [135, -75], //SE Corner
+          [-145, -75] //SW Corner
         ]
     });
 
