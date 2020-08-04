@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrY3AzY3QxazBkN2UycmxlZG5uY
 // Set bounds for maptile
 // DO NOT TOUCH!!!
 var bounds = [
-  [-195, -90], // [west, south]
+  [-140, -90], // [west, south]
   [205, 90]  // [east, north]
 ];
 
@@ -22,10 +22,10 @@ map.on('load', function() {
         "url": "https://hockeyrink.geospatial.is/hexbin/img/mytable1.png",
         // Sets image size
         "coordinates": [
-          [-145, 60], //NW corner
-          [135,60], //NE Corner
-          [135,-75], //SW Corner
-          [-145,-75] //SW Corner
+          [-5, 55], //NW corner
+          [128,55], //NE Corner
+          [128,-48], //SE Corner
+          [-5,-48] //SW Corner
         ]
     });
 
