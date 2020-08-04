@@ -1,5 +1,5 @@
 // 2019 Stanley Cup Events Automated from Python Code
-mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYWZyam8wcjAxdjczMHBteGhoZjlqZXoifQ.i5FSDzH9ybnPDpFNhKrVOQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrY3AzY3QxazBkN2UycmxlZG5uYjFueHIifQ.mLIK3f-mL_oe6YidlLQqSA';
 // Set bounds to New York, New York
 var bounds = [
   [-110, -85], // [west, south]

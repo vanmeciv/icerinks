@@ -1,5 +1,5 @@
 // Blank Rink
-mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrYWZyam8wcjAxdjczMHBteGhoZjlqZXoifQ.i5FSDzH9ybnPDpFNhKrVOQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiaXNhYWN2IiwiYSI6ImNrY3AzY3QxazBkN2UycmxlZG5uYjFueHIifQ.mLIK3f-mL_oe6YidlLQqSA';
 // Set bounds for maptile
 // DO NOT TOUCH!!!
 var bounds = [
