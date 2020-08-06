@@ -5,7 +5,6 @@
 - [Finals](#finals)
 - [Hexbin](#hexbin)
 - [Contact](#contact)
-  [Resume](#resume)
 - [License](#license)
 
 ---
