@@ -18,6 +18,7 @@
 
 ![Recordit GIF](http://g.recordit.co/cTF8VBACTN.gif)
 
+---
 __2019-2020 Regular Season NHL Points Leaders:__
 
 
@@ -34,6 +35,7 @@ __2019-2020 Regular Season NHL Points Leaders:__
 | :---         |     :---:      |           ---: |
 |  <img src="hexbin/img/_Points_2019-2020_McDavid_withTilemap.png">     | <img src="hexbin/img/_Points_2019-2020_Panarin_withTilemap.png">    | <img src="hexbin/img/_Points_2019-2020_Pastrnak_withTilemap.png">    |
 
+---
 
 __2019-2020 Regular Season Team Scoring:__
 
