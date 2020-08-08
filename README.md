@@ -35,6 +35,15 @@ __2019-2020 Regular Season NHL Points Leaders:__
 |  <img src="hexbin/img/_Points_2019-2020_McDavid_withTilemap.png">     | <img src="hexbin/img/_Points_2019-2020_Panarin_withTilemap.png">    | <img src="hexbin/img/_Points_2019-2020_Pastrnak_withTilemap.png">    |
 
 
+__2019-2020 Regular Season Team Scoring:__
+
+| Washington | Tampa Bay | Toronto |
+| :---         |     :---:      |          ---: |
+| <img src="/hexbin/img/2019-2020_Goals_WSH_tilemap.png">     | <img src="/hexbin/img/2019-2020_Goals_TBL_tilemap.png">    | <img src="/hexbin/img/2019-2020_Goals_TOR_tilemap.png">   |
+
+| Colorado | NY Rangers | Florida |
+| :---         |     :---:      |          ---: |
+| <img src="/hexbin/img/2019-2020_Goals_COL_tilemap.png">     | <img src="/hexbin/img/2019-2020_Goals_NYR_tilemap.png">     | <img src="/hexbin/img/2019-2020_Goals_FLA_tilemap.png">    |
 
 ---
 ## Contact
