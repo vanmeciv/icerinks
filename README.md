@@ -4,8 +4,6 @@
 ## Table of Contents
 - [Finals](#finals)
 - [Hexbin](#hexbin)
-  -[Points](#points)
-  -[Team Scoring](#team)
 - [Contact](#contact)
 - [License](#license)
 
