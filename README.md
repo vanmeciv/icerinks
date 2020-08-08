@@ -4,6 +4,8 @@
 ## Table of Contents
 - [Finals](#finals)
 - [Hexbin](#hexbin)
+  -[Points](#points)
+  -[Team Scoring](#team)
 - [Contact](#contact)
 - [License](#license)
 
@@ -19,7 +21,7 @@
 ![Recordit GIF](http://g.recordit.co/cTF8VBACTN.gif)
 
 ---
-__2019-2020 Regular Season NHL Points Leaders:__
+## Points Leaders (2019-2020 Regular Season):
 
 
 | Draisaitl | Eichel | Kane | Kucherov |
@@ -37,7 +39,7 @@ __2019-2020 Regular Season NHL Points Leaders:__
 
 ---
 
-__2019-2020 Regular Season Team Scoring:__
+## Team Scoring (2019-2020 Regular Season):
 
 | Washington | Tampa Bay | Toronto |
 | :---         |     :---:      |          ---: |
