@@ -24,16 +24,16 @@
 
 | Draisaitl | Eichel | Kane | Kucherov |
 | :---         |     :---:      |          :---: |           ---: |
-| <img src="hexbin/img/_Points_2019-2020_Draisaitl_withTilemap.png">   | <img src="hexbin/img/_Points_2019-2020_Eichel_withTilemap.png">     | <img src="hexbin/img/_Points_2019-2020_Kane_withTilemap.png">    | <img src="hexbin/img/_Points_2019-2020_Kucherov_withTilemap.png">   |
+| <img src="hexbin/img/Points_2019-2020_Draisaitl_withTilemap.png">   | <img src="hexbin/img/Points_2019-2020_Eichel_withTilemap.png">     | <img src="hexbin/img/Points_2019-2020_Kane_withTilemap.png">    | <img src="hexbin/img/Points_2019-2020_Kucherov_withTilemap.png">   |
 
 | MacKinnon | Marchand | Matthews |
 | :---         |     :---:      |          ---: |
-| <img src="hexbin/img/_Points_2019-2020_MacKinnon_withTilemap.png">     | <img src="hexbin/img/_Points_2019-2020_Marchand_withTilemap.png">    | <img src="hexbin/img/_Points_2019-2020_Matthews_withTilemap.png">   |
+| <img src="hexbin/img/Points_2019-2020_MacKinnon_withTilemap.png">     | <img src="hexbin/img/Points_2019-2020_Marchand_withTilemap.png">    | <img src="hexbin/img/_Points_2019-2020_Matthews_withTilemap.png">   |
 
 
 | McDavid | Panarin | Pasternak |
 | :---         |     :---:      |           ---: |
-|  <img src="hexbin/img/_Points_2019-2020_McDavid_withTilemap.png">     | <img src="hexbin/img/_Points_2019-2020_Panarin_withTilemap.png">    | <img src="hexbin/img/_Points_2019-2020_Pastrnak_withTilemap.png">    |
+|  <img src="hexbin/img/Points_2019-2020_McDavid_withTilemap.png">     | <img src="hexbin/img/Points_2019-2020_Panarin_withTilemap.png">    | <img src="hexbin/img/Points_2019-2020_Pastrnak_withTilemap.png">    |
 
 ---
 
