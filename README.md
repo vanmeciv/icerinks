@@ -11,12 +11,12 @@
 ## Finals
 - Finals <a href="https://github.com/vanmeciv/icerinks/tree/master/finals" target="_blank">Repository</a>
 
-![Recordit GIF](http://g.recordit.co/suz077M7MR.gif)
+![Recordit GIF](https://camo.githubusercontent.com/8aea2245cf3578ea3a32f4ed74205c9df5b376ed68018199abff5e211883eeb4/687474703a2f2f672e7265636f726469742e636f2f73757a3037374d374d522e676966)
 ---
 ## Hexbin
 - Hexbin <a href="https://github.com/vanmeciv/icerinks/tree/master/hexbin" target="_blank">Repository</a>
 
-![Recordit GIF](http://g.recordit.co/cTF8VBACTN.gif)
+![Recordit GIF](https://camo.githubusercontent.com/0a8d1f97788126baf8053d46e6e9c5132b3cee5667a13b73a48f80740efbb746/687474703a2f2f672e7265636f726469742e636f2f6354463856424143544e2e676966)
 
 ---
 ## Points Leaders (2019-2020 Regular Season):
