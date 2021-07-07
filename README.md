@@ -28,7 +28,7 @@
 
 | MacKinnon | Marchand | Matthews |
 | :---         |     :---:      |          ---: |
-| <img src="hexbin/img/Points_2019-2020_MacKinnon_withTilemap.png">     | <img src="hexbin/img/Points_2019-2020_Marchand_withTilemap.png">    | <img src="hexbin/img/_Points_2019-2020_Matthews_withTilemap.png">   |
+| <img src="hexbin/img/Points_2019-2020_MacKinnon_withTilemap.png">     | <img src="hexbin/img/Points_2019-2020_Marchand_withTilemap.png">    | <img src="hexbin/img/Points_2019-2020_Matthews_withTilemap.png">   |
 
 
 | McDavid | Panarin | Pasternak |
