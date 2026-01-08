@@ -1,62 +1,306 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Rink Plots</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/rink-style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/rinkPlot.js"></script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NHL Regulation Rink + Event Logger (0.1s)</title>
+
+<style>
+  body {
+    margin:0;
+    background:#0b0f14;
+    color:#e5e7eb;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  }
+
+  header {
+    padding:12px;
+    border-bottom:1px solid #1f2937;
+  }
+
+  .row {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:8px;
+  }
+
+  .clock {
+    font-size:28px;
+    font-weight:800;
+    letter-spacing:0.5px;
+  }
+
+  main {
+    padding:12px 12px 180px;
+  }
+
+  svg {
+    width:100%;
+    height:auto;
+    background:#0b1220;
+    border-radius:18px;
+    border:1px solid #1f2937;
+    touch-action:manipulation;
+  }
+
+  .hint {
+    font-size:12px;
+    color:#9ca3af;
+    margin-top:6px;
+  }
+
+  .events {
+    margin-top:12px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+  }
+
+  .event {
+    background:#111827;
+    border:1px solid #1f2937;
+    border-radius:10px;
+    padding:6px 8px;
+    font-size:14px;
+    display:flex;
+    gap:8px;
+    align-items:center;
+  }
+
+  .controls {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:12px;
+    background:#0b0f14;
+    border-top:1px solid #1f2937;
+  }
+
+  .grid {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+  }
+
+  .timeGrid {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:8px;
+    margin-top:10px;
+  }
+
+  button {
+    background:#1f2937;
+    color:#e5e7eb;
+    border:0;
+    border-radius:10px;
+    padding:12px;
+    font-weight:700;
+    cursor:pointer;
+  }
+
+  button:active { background:#374151; }
+
+  .toast {
+    position:fixed;
+    left:12px;
+    right:12px;
+    bottom:200px;
+    background:#0b1220;
+    border:1px solid #1f2937;
+    border-radius:12px;
+    padding:10px;
+    font-weight:700;
+    display:none;
+  }
+
+  .toast.show { display:block; }
+</style>
 </head>
+
 <body>
 
-<h2>Rink Plots</h2>
-<h3>Full Rink, Horizontal</h3>
-<div class="chart" id="full-rink-horz"></div>
-<h3>Full Rink, Vertical</h3>
-<div class="chart" id="full-rink-vert"></div>
-<h3>Half Rink, Horizontal</h3>
-<div class="chart" id="half-rink-horz"></div>
-<h3>Half Rink, Vertial</h3>
-<div class="chart" id="half-rink-vert"></div>
+<header>
+  <div class="row">
+    <div class="clock" id="clock">20:00.0</div>
+    <div>
+      <button id="startStop">Start</button>
+      <button id="undo">Undo</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- NHL regulation rink (200 x 85 feet) -->
+<svg id="rink" viewBox="0 0 200 85" preserveAspectRatio="xMidYMid meet">
+  <rect x="0" y="0" width="200" height="85" rx="28" ry="28"
+        fill="none" stroke="#e5e7eb" stroke-width="0.8"/>
+
+  <rect x="10.9167" y="0" width="0.1667" height="85" fill="#ef4444"/>
+  <rect x="188.9167" y="0" width="0.1667" height="85" fill="#ef4444"/>
+
+  <rect x="74.5"  y="0" width="1" height="85" fill="#3b82f6"/>
+  <rect x="124.5" y="0" width="1" height="85" fill="#3b82f6"/>
+
+  <rect x="99.5" y="0" width="1" height="85" fill="#ef4444"/>
+
+  <circle cx="100" cy="42.5" r="15" fill="none" stroke="#3b82f6" stroke-width="0.1667"/>
+  <circle cx="100" cy="42.5" r="0.5" fill="#3b82f6"/>
+
+  <g id="markers"></g>
+</svg>
+
+<div class="hint" id="hint">Tap an event, then tap the rink</div>
+<div class="events" id="events"></div>
+
+</main>
+
+<div class="toast" id="toast"></div>
+
+<div class="controls">
+  <div class="grid">
+    <button data-type="goal">GOAL</button>
+    <button data-type="shot">SHOT</button>
+    <button data-type="hit">HIT</button>
+    <button data-type="penalty">PENALTY</button>
+    <button data-type="possession">POSSESSION</button>
+    <button data-type="note">NOTE</button>
+  </div>
+
+  <!-- Time adjustment -->
+  <div class="timeGrid">
+    <button data-dt="-10">-1s</button>
+    <button data-dt="-1">-0.1s</button>
+    <button data-dt="1">+0.1s</button>
+    <button data-dt="10">+1s</button>
+  </div>
+</div>
 
 <script>
-$(document).ready(function(){
-    var fullHorzSvg = d3.select("#full-rink-horz")
-         .append("svg")
-         .attr("width", 1000)
-         .attr("height", 500);
+/* ================== EVENT SYMBOLS ================== */
+const SYMBOL = {
+  goal: "●",
+  shot: "△",
+  hit: "✖",
+  penalty: "▢",
+  possession: "⇄",
+  note: "✎"
+};
 
-    var fullHorzPlot = new RINK_MAP({parent: fullHorzSvg, fullRink: true, desiredWidth: 400, horizontal: true});
+/* ================== STATE ================== */
+const state = {
+  // time in tenths of a second
+  clockTenths: 20 * 60 * 10,
+  running: false,
+  events: [],
+  pendingEvent: null
+};
 
-    fullHorzPlot();
+const rink = document.getElementById("rink");
+const markers = document.getElementById("markers");
+const eventsEl = document.getElementById("events");
+const toast = document.getElementById("toast");
+const hint = document.getElementById("hint");
 
-    var fullVertSvg = d3.select("#full-rink-vert")
-         .append("svg")
-         .attr("width", 1000)
-         .attr("height", 1000);
+/* ================== UTIL ================== */
+function formatTime(tenths) {
+  const totalSeconds = Math.floor(tenths / 10);
+  const t = tenths % 10;
+  const m = Math.floor(totalSeconds / 60);
+  const s = totalSeconds % 60;
+  return `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}.${t}`;
+}
 
-    var fullVertPlot = new RINK_MAP({parent: fullVertSvg, fullRink: true, desiredWidth: 400, horizontal: false});
+function showToast(msg) {
+  toast.textContent = msg;
+  toast.classList.add("show");
+  setTimeout(() => toast.classList.remove("show"), 2000);
+}
 
-    fullVertPlot();
+/* ================== RENDER ================== */
+function render() {
+  document.getElementById("clock").textContent = formatTime(state.clockTenths);
 
-    var halfHorzSvg = d3.select("#half-rink-horz")
-         .append("svg")
-         .attr("width", 1000)
-         .attr("height", 500);
+  eventsEl.innerHTML = state.events.map(e =>
+    `<div class="event">
+      <strong>${SYMBOL[e.type] ?? "?"}</strong>
+      ${e.type.toUpperCase()} @ ${formatTime(e.time)}
+     </div>`
+  ).join("");
 
-    var halfHorzPlot = new RINK_MAP({parent: halfHorzSvg, fullRink: false, desiredWidth: 400, horizontal: true});
+  markers.innerHTML = "";
+  for (const e of state.events) {
+    if (!e.xy) continue;
+    const c = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    c.setAttribute("x", e.xy.x);
+    c.setAttribute("y", e.xy.y);
+    c.setAttribute("font-size", "4");
+    c.setAttribute("fill", "#e5e7eb");
+    c.setAttribute("text-anchor", "middle");
+    c.setAttribute("dominant-baseline", "middle");
+    c.textContent = SYMBOL[e.type] ?? "?";
+    markers.appendChild(c);
+  }
+}
 
-    halfHorzPlot();
-
-    var halfVertSvg = d3.select("#half-rink-vert")
-         .append("svg")
-         .attr("width", 1000)
-         .attr("height", 550);
-
-    var halfVertPlot = new RINK_MAP({parent: halfVertSvg, fullRink: false, desiredWidth: 400, horizontal: false});
-
-    halfVertPlot();
+/* ================== EVENT BUTTONS ================== */
+document.querySelectorAll(".grid button").forEach(btn => {
+  btn.onclick = () => {
+    const evt = {
+      type: btn.dataset.type,
+      time: state.clockTenths
+    };
+    state.events.unshift(evt);
+    state.pendingEvent = evt;
+    hint.textContent = "Tap the rink to place event";
+    showToast("Event logged");
+    render();
+  };
 });
+
+/* ================== RINK CLICK ================== */
+rink.addEventListener("click", e => {
+  if (!state.pendingEvent) return;
+
+  const r = rink.getBoundingClientRect();
+  state.pendingEvent.xy = {
+    x: (e.clientX - r.left) / r.width * 200,
+    y: (e.clientY - r.top) / r.height * 85
+  };
+
+  state.pendingEvent = null;
+  hint.textContent = "Tap an event, then tap the rink";
+  render();
+});
+
+/* ================== CLOCK ================== */
+document.getElementById("startStop").onclick = () => {
+  state.running = !state.running;
+};
+
+document.getElementById("undo").onclick = () => {
+  state.events.shift();
+  render();
+};
+
+document.querySelectorAll(".timeGrid button").forEach(btn => {
+  btn.onclick = () => {
+    state.clockTenths = Math.max(0, state.clockTenths + Number(btn.dataset.dt));
+    render();
+  };
+});
+
+setInterval(() => {
+  if (state.running && state.clockTenths > 0) {
+    state.clockTenths--;
+    render();
+  }
+}, 100);
+
+render();
 </script>
 
 </body>
